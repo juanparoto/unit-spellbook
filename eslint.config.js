@@ -23,6 +23,10 @@ export default defineConfig([
       "max-params": ["error", 3],
 
       // Code good practice
+      "id-length": ["warn", {min: 3}],
+      "no-magic-numbers": ["warn", { ignore: [0, 1] }],
+      "no-useless-assignment": "warn",
+      "no-template-curly-in-string": "warn",
       "prefer-const": "error",
       "no-var": "error",
       eqeqeq: ["error", "always"],
